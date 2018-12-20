@@ -5,8 +5,9 @@
 		body{
 			text-align: center;
 		}
-		
-		.w3-btn {margin-bottom:10px;}
+		function go_url(url){
+			opener.location.href=url;
+		}
 	</style>
     <title>카페 공지</title>
 </head>
@@ -14,6 +15,7 @@
     <h1>공지사항</h1>
     <h2>위임장 관련 요청 사항입니다.</h2>
     <h2><a href="http://cafe.daum.net/e-easy-apt/jAob/87"  target="_blank">바로가기</a></h2>
+    <h2><a href="#" onclick="go_url('http://cafe.daum.net/e-easy-apt/jAob/87')">바로가기2</a><h2>
 </body>
 </html>
 
